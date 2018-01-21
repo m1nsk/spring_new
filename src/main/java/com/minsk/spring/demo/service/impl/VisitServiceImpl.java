@@ -1,7 +1,8 @@
-package com.minsk.spring.demo.service;
+package com.minsk.spring.demo.service.impl;
 
 import com.minsk.spring.demo.entity.Visit;
 import com.minsk.spring.demo.repository.VisitsRepository;
+import com.minsk.spring.demo.service.VisitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

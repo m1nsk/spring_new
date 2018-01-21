@@ -20,8 +20,6 @@ public class Tut1Config {
         return new Tut1Receiver();
     }
 
-    @Profile("sender")
-    @Bean
     public Tut1Sender sender() {
         return new Tut1Sender();
     }
